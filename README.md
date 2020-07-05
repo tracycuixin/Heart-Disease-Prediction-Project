@@ -15,3 +15,10 @@ This project uses the following Python libraries
 `seaborn` : For enhancing the style of matplotlib plots.
 
 `sklearn.model_selection`: For
+
+# CSV Extraction
+For your convenience I have added the CSV file in the data folder.
+For this task, we use pandas to extract the data
+```python
+df = pd.read_csv('heart.csv')
+```
